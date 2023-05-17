@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Blogger App
+React library is used for the project.
+## What does the app exactly show?
+1.Title : Blogger Page
+2.At a time you will see one of the blogs (In my case I have taken total 3 blogs). 
+3.You can navigate from one blog to other using arrows present on both the sides of the blog.
+4.On reloading the page, the order of the blogs will change and therefore, you will see different blog as a active blog on reloading the page.
+## About the code
+App.js (present in src folder) is very important file. It includes App function which returns most of the content required for our blogger app. Most of the CSS is done in App.css (present in src folder) . 
+In App function's return I have made carousel, card, etc.
+In that a random value gets assigned for activeIndex at the beginning of the function App. And using that appIndex value, active corousel-item is decided and so we can see different corousel on reloading the page.
+## How to Run?
+I have added gitignore to avoid large files/folders (ex. node modules) upload on github.
+So you have to first install those packages/files mentioned in the gitignore.
+To build the 'node modules' you have to use 'npm install'.
+You have to open the code in code editor like VS code. 
+Open the terminal.
+Run npm start.
+App will open..
+
+## Data
+For blogs I have taken data from random blogs. For the source of the data, click on the 'for more..' button at the end of the blog on the blogger page of our Blogger App. 
+
+## Screen recording Video Link
+https://youtu.be/KhnYDEHbEqo
+
+
+## Following part is created by default when I created the react app at the beginning.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
