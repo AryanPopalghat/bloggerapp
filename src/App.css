@@ -61,6 +61,26 @@ a{
  /* margin-left:900px;*/
   
 }
+@media only screen and (max-width: 768px) {
+  .card {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+  }
+  
+  .contain {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  
+  .d-block {
+    margin-left: 10%;
+  }
+  
+  a {
+    padding-left: 5%;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
